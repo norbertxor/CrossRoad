@@ -48,8 +48,8 @@ public class GameController : MonoBehaviour {
     private void Update() {
         //for debug
         if (Input.GetKeyUp(KeyCode.R)) {
-            PlayerPrefs.SetString("First Game", "Yes");
-            Debug.Log("reset study");
+            // PlayerPrefs.SetString("First Game", "Yes");
+            // Debug.Log("reset study");
         }
 
 
